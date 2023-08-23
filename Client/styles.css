@@ -49,10 +49,26 @@
 }
 
 
-.cart-btn {
+.cart-btn:hover {
     cursor: pointer;
     opacity: 0.9;
 }
+
+.cart-counter {
+    display: none;
+    position: fixed;
+    top: 89vh;
+    right: 1.6875rem;
+    color: #fff;
+    text-align: center;
+    background-color: #ed3434;
+    padding: .25rem;
+    border-radius: 50%;
+    height: 1.0625rem;
+    width: 1.0625rem;
+    font-size: .9375rem;
+}
+
 
 /*modal*/
 .modal-overlay {
@@ -180,4 +196,21 @@
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    font-size: .875rem;
+    font-weight: bold;
+    padding: .625rem 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
 }
